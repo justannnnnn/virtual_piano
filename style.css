@@ -1,0 +1,43 @@
+html {
+    background-color: darkolivegreen;
+}
+
+kbd {
+    border: 1px solid gray;
+    display: inline-block;
+    height: 200px;
+    width: 50px;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-size: 15px;
+}
+.white-keys kbd{
+    background-color: white;
+}
+
+.black-keys kbd{
+    background-color: black;
+    display: inline-block;
+    height: 100px;
+    width: 25px;
+    color: white;
+    margin-right: 30px;
+}
+
+#double_dist {
+    margin-right: 75px;
+}
+
+.black-keys {
+    position: relative;
+    display: flex;
+    right: 330px;
+    bottom: 50px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
